@@ -1,0 +1,2 @@
+INCLUDE "prelude.rby".
+current = VAR x1 x2 . <x1,x2> $rel <(`mult` <x1,x2>),(`add` <x1,x2>)>.
