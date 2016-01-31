@@ -1,0 +1,6 @@
+INCLUDE "prelude.rby". 
+
+FAM = fork ; [add , mult].
+
+current = [add , mult] ; FAM^3.
+

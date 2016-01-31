@@ -1,0 +1,4 @@
+INCLUDE "prelude.rby".
+
+
+current = VAR in1 in2 in3 . <in1,<in2, in3>> $rel (`add` <`add` <in1, in2>, in3>). 

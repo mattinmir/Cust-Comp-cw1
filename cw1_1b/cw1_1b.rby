@@ -1,0 +1,3 @@
+INCLUDE "prelude.rby".
+
+current = fork ; [add, mult].
